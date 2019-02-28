@@ -1,0 +1,8 @@
+spring:
+  profiles:
+#    active: configserver
+    active: eurekaserver
+
+module:
+  build:
+    artifactId: eureka_server
